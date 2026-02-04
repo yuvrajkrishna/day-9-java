@@ -1,6 +1,6 @@
 public class largestArray {
     public static int largestarray(int number[]){
-        int largest = 0;
+        int largest = Integer.MIN_VALUE;
         for(int i=0;i<number.length;i++){
             if(number[i] > largest){
                 largest = number[i];
